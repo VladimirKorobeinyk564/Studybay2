@@ -1,0 +1,327 @@
+@import "vars"
+
+
+
+@media screen and (max-width: 1200px)
+	.header-content
+		.header-content-inner
+			h2.main-headline
+				font-size: 80px
+				line-height: 80px
+		.header-photo
+			.photo-inner
+				img
+					display: none
+	.header-bg-image-2
+		position: absolute
+		top: 0
+		left: 14%
+	.s-remember
+		.remember-content
+			margin-left: 40px
+			h2
+				font-size: 34px
+				line-height: 44px
+		
+/**/
+
+
+@media screen and (max-width: 1084px)
+	.site-header
+		.header-content
+			flex-direction: column-reverse
+			.header-photo
+				margin-left: auto
+				img
+					position: relative
+					top: 0
+					right: 0
+					width: 100%
+			.header-content-inner
+				margin-top: 20px
+				max-width: 100%
+	.header-bg-image-2, .header-bg-image
+		display: none
+	.s-remember
+		padding: 190px 0 0
+		.remember-block
+			flex-direction: column
+			.remember-content
+				margin-left: auto
+				margin-top: 0
+	.s-experts
+		padding-bottom: 0
+		.experts-block
+			flex-direction: column-reverse
+			justify-content: center
+			.experts-content
+				h2
+					font-size: 34px
+					line-height: 44px
+			.experts-photo
+				position: relative
+				height: 600px
+				max-width: 100%
+				img
+					position: absolute
+					right: 0
+	.first-circle
+		top: 300px
+		left: -56px
+	.second-circle
+		bottom: 400px
+		left: 66%
+	.experts-bg-image
+		top: -100px
+		left: 12%
+	.site-footer
+		.footer-block
+			flex-direction: column
+			.footer-logo
+				text-align: center
+			.footer-number, .footer-email
+				justify-content: center
+			a
+				text-align: center
+
+/**/
+
+@media screen and (max-width: 768px)
+	.site-header
+		background: none !important
+		min-height: 510px
+	.header-wrap
+		background: url('../img/background-header/path-3.png')no-repeat
+		background-position: top right
+		.header-content
+			flex-direction: row
+			.header-photo
+				img
+					right: 0
+				.photo-inner
+					display: block
+			.header-content-inner
+				h2.main-headline
+					font-size: 50px
+					line-height: 50px
+				.free-book
+					font-size: 28px
+					line-height: 24px
+					margin-bottom: 12px
+				p
+					font-size: 18px
+					font-weight: 300
+					margin-bottom: 12px
+					line-height: 30px
+					span
+						font-size: 20px
+						font-weight: 500
+	.header-bg-image
+		display: none
+	.s-remember
+		background: none
+		padding: 50px 0
+		.remember-block
+			flex-direction: row
+		.remember-wrap
+			background: url('../img/background-content/remember-bg-mobile.png')no-repeat
+			background-position: top left
+			padding: 20px 0
+		.remember-photo
+			margin-top: 100px
+			max-width: 100%
+			img
+				display: none
+			.remember-photo-inner
+				img
+					display: block
+					margin: 0
+		.remember-content
+			margin-top: 0px
+			max-width: 100%
+			h2
+				font-size: 24px
+				line-height: 30px
+				margin-bottom: 14px
+			p
+				font-size: 18px
+				line-height: 22px
+				margin-bottom: 15px
+				span
+					font-size: 20px
+					line-height: 26px
+					margin-bottom: 22px
+	.s-experts
+		background-image: none
+		padding: 0
+		.experts-wrap
+			background: url('../img/background-content/experts-bg-mobile.png')
+			background-repeat: no-repeat
+			background-position: top right
+			padding: 25px 0
+			.experts-block
+				flex-direction: row
+				.experts-photo
+					img
+						display: none
+					.experts-photo-inner
+						img
+							display: block
+							margin-left: auto
+				.experts-content
+					max-width: 100%
+					h2
+						font-size: 28px
+						line-height: 35px
+						margin-bottom: 12px
+					p
+						font-size: 20px
+						line-height: 26px
+						span
+							margin-bottom: 22px
+
+
+	.first-circle, .second-circle, .experts-bg-image
+		display: none
+/**/
+
+@media screen and (max-width: 650px)
+	.site-header
+		.header-content
+			flex-direction: column-reverse
+
+	.s-remember
+		.remember-block
+			flex-direction: column
+	.s-experts
+		.experts-wrap
+			.experts-block
+				flex-direction: column-reverse
+
+@media screen and (max-width: 480px)
+	.site-header
+		min-height: 860px
+		.header-wrap
+			padding-top: 22px
+			.header-menu-content
+				margin: 0
+		.header-logo
+			img
+				width: 144px
+				height: auto
+		.header-content
+			flex-direction: column-reverse
+			.header-content-inner
+				h2.main-headline
+					font-size: 42px
+					line-height: 46px
+				.free-book
+					font-size: 28px
+					line-height: 24px
+					margin-bottom: 12px
+				p
+					font-size: 20px
+					font-weight: 300
+					margin-bottom: 12px
+					span
+						font-size: 20px
+						font-weight: 500
+				.header-button
+					width: 100%
+
+			.header-photo
+				max-width: 100%
+				position: relative
+				margin-top: 20px
+				margin-bottom: -40px
+				img
+					display: none
+				.photo-inner
+					img
+						display: block
+						margin: 0 auto
+						margin-left: 16px
+						max-width: 300px
+						height: auto
+						width: 100%
+	.s-remember
+		.remember-block
+			.remember-content
+				margin-top: -20px
+				margin-left: 0
+				max-width: 100%
+				.remember-button
+					width: 100%
+	.s-experts
+		padding: 50px 0 50px
+		.experts-wrap
+			.experts-block
+				.experts-photo
+					max-width: 100%
+					.experts-photo-inner
+						img
+							margin-bottom: 150px
+				.experts-content
+					max-width: 100%
+					margin-top: 0
+					.experts-button
+						width: 100%
+	.site-footer
+		padding: 60px 0 0
+		.footer-wrap
+			position: relative
+			.footer-block
+				flex-direction: column
+				justify-content: center
+				max-width: 100%
+				.footer-logo
+					position: absolute
+					top: -154px
+					width: 100%
+					img
+						width: 153px
+						height: auto
+						margin: 0 auto
+				.footer-number
+					p
+						color: $white
+				.footer-email
+					a
+						color: $white
+				a
+					color: $white
+	.footer-bg
+		display: block
+		position: absolute
+		bottom: 0
+		z-index: -1
+		width: 100%
+
+/*==========  Desktop First  ==========*/
+
+// ≥1200px
++media-breakpoint-down(lg)
+
+// ≥992px
++media-breakpoint-down(md)
+
+// ≥768px
++media-breakpoint-down(sm)
+
+// ≥576px
++media-breakpoint-down(xs)
+
+
+/*==========  Mobile First  ==========*/
+
+// ≤576px
++media-breakpoint-up(sm)
+
+// ≤768px
++media-breakpoint-up(md)
+
+// ≤992px
++media-breakpoint-up(lg)
+
+// ≤1200px
++media-breakpoint-up(xl)

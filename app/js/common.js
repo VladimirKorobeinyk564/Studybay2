@@ -1,0 +1,5 @@
+$(function() {
+
+	$('#languege-select').selectize();
+
+});
